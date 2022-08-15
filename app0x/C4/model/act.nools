@@ -1,0 +1,20 @@
+global request= require('request');
+
+define Inbound {
+    header:null,
+    payload:null,
+    constructor : function(header,payload){
+        this.payload = payload;
+        this.header = header;
+    }
+}
+
+rule "Stamp"
+{
+   when{
+      i : Inbound 1==1;
+   }
+   then{
+      outBound.result = i.payload;
+   }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "node-red-project",
+  "description": "A Node-RED Project",
+  "version": "0.0.1",
+  "dependencies": {
+    "connect-redis": "1.4.7",
+    "ejs": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "cors": "^2.8.4",
+    "express": "^3.4.4",
+    "node-uuid": "^1.4.8",
+    "nools": "0.4.1",
+    "request": "^2.83.0",
+    "session.socket.io": "^0.2.1",
+    "shortid": "^2.2.15",
+    "socket.io": "^0.9.19",
+    "log4js": "^0.6.26"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2017": "^6.24.1"
+  }
+}
