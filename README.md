@@ -5,6 +5,7 @@ app0x - with sidecar
 ## :3500/v1.0/invoke/app0x/method/model/act
 ## :3500/model/act [with header dapr-app-id: app0x]
 
+curl -H "dapr-app-id:app0x" -H "Content-Type: application/json" -X POST -d '[{"key":"key","value":1}]' http://localhost:3500/v1.0/state/statestore
 <pre>
   app0x:
     build: ./app0x
