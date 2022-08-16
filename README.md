@@ -1,8 +1,9 @@
 # app0x
-app0x - width sidecar
+app0x - with sidecar
 
 
 ## :3500/v1.0/invoke/app0x/method/model/act
+## :3500/model/act [with header dapr-app-id: app0x]
 
 <pre>
   app0x:
